@@ -1,6 +1,5 @@
 //
 //  CommonConstantsDefine.h
-//  Yuesao
 //
 //  Created by apple on 16/5/10.
 //  Copyright © 2016年 zhangjie. All rights reserved.

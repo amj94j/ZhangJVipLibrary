@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @interface ZJUtils : NSObject
+
 //验证手机号是否输入正确
 + (BOOL)validateMobile:(NSString *)mobile;
 

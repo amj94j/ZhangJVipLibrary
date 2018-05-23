@@ -17,7 +17,6 @@
 		181A126F1FE66C9F009BE426 /* UIImageView+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A125D1FE66C9D009BE426 /* UIImageView+Addons.m */; };
 		181A12701FE66C9F009BE426 /* UIColor+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12601FE66C9E009BE426 /* UIColor+Addons.m */; };
 		181A12711FE66C9F009BE426 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12611FE66C9E009BE426 /* NSString+Extend.m */; };
-		181A12721FE66C9F009BE426 /* UILabel+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12631FE66C9E009BE426 /* UILabel+Addons.m */; };
 		181A12731FE66C9F009BE426 /* UIButton+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12651FE66C9E009BE426 /* UIButton+Addons.m */; };
 		181A12741FE66C9F009BE426 /* UITextField+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12661FE66C9F009BE426 /* UITextField+Addons.m */; };
 		181A12751FE66C9F009BE426 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A12671FE66C9F009BE426 /* UIImage+Extension.m */; };
@@ -36,6 +35,7 @@
 		18578F081F443D4E004F7FB7 /* ZJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18578F071F443D4E004F7FB7 /* ZJUtils.m */; };
 		185EB2821F4584C4003A2D57 /* UILabel+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EB2811F4584C4003A2D57 /* UILabel+Addons.m */; };
 		189900D620B5158A00A45A26 /* NSDictionary+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 189900D420B5158900A45A26 /* NSDictionary+Addons.m */; };
+		189900D920B53F8D00A45A26 /* UILabel+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 189900D820B53F8C00A45A26 /* UILabel+Addons.m */; };
 		D9673023F4415A51A07775B9 /* libPods-ZhangJVipLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4079D994570E5EE7A3B510 /* libPods-ZhangJVipLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -83,8 +83,6 @@
 		181A125F1FE66C9E009BE426 /* NSString+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
 		181A12601FE66C9E009BE426 /* UIColor+Addons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addons.m"; sourceTree = "<group>"; };
 		181A12611FE66C9E009BE426 /* NSString+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
-		181A12621FE66C9E009BE426 /* UILabel+Addons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UILabel+Addons.h"; path = "../../项目/xhk_git/XHDoctor/XHDoctor/Extention/Categories/UILabel+Addons.h"; sourceTree = "<group>"; };
-		181A12631FE66C9E009BE426 /* UILabel+Addons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Addons.m"; path = "../../项目/xhk_git/XHDoctor/XHDoctor/Extention/Categories/UILabel+Addons.m"; sourceTree = "<group>"; };
 		181A12641FE66C9E009BE426 /* UIDevice+Addons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Addons.h"; sourceTree = "<group>"; };
 		181A12651FE66C9E009BE426 /* UIButton+Addons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addons.m"; sourceTree = "<group>"; };
 		181A12661FE66C9F009BE426 /* UITextField+Addons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Addons.m"; sourceTree = "<group>"; };
@@ -129,6 +127,8 @@
 		185EB2811F4584C4003A2D57 /* UILabel+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addons.m"; sourceTree = "<group>"; };
 		189900D420B5158900A45A26 /* NSDictionary+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addons.m"; sourceTree = "<group>"; };
 		189900D520B5158900A45A26 /* NSDictionary+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addons.h"; sourceTree = "<group>"; };
+		189900D720B53F8C00A45A26 /* UILabel+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addons.h"; sourceTree = "<group>"; };
+		189900D820B53F8C00A45A26 /* UILabel+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addons.m"; sourceTree = "<group>"; };
 		4DAFAF5AD9DF6D0145A7B57C /* Pods-ZhangJVipLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhangJVipLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhangJVipLibrary/Pods-ZhangJVipLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		5A21094FF92D1D60FCFDA4E1 /* Pods-ZhangJVipLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhangJVipLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhangJVipLibrary/Pods-ZhangJVipLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		AC4079D994570E5EE7A3B510 /* libPods-ZhangJVipLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhangJVipLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -309,8 +309,8 @@
 				181A12671FE66C9F009BE426 /* UIImage+Extension.m */,
 				181A124F1FE66C9B009BE426 /* UIImageView+Addons.h */,
 				181A125D1FE66C9D009BE426 /* UIImageView+Addons.m */,
-				181A12621FE66C9E009BE426 /* UILabel+Addons.h */,
-				181A12631FE66C9E009BE426 /* UILabel+Addons.m */,
+				189900D720B53F8C00A45A26 /* UILabel+Addons.h */,
+				189900D820B53F8C00A45A26 /* UILabel+Addons.m */,
 				181A12531FE66C9B009BE426 /* UITableViewCell+Addons.h */,
 				181A12501FE66C9B009BE426 /* UITableViewCell+Addons.m */,
 				181A12681FE66C9F009BE426 /* UITextField+Addons.h */,
@@ -554,13 +554,13 @@
 				1828089A1FE8C14B0039E1D0 /* NSDate+extension.m in Sources */,
 				18578F021F443ACB004F7FB7 /* NSDictionary+Addons.m in Sources */,
 				181A126E1FE66C9F009BE426 /* UIImage+Addons.m in Sources */,
+				189900D920B53F8D00A45A26 /* UILabel+Addons.m in Sources */,
 				181A126C1FE66C9F009BE426 /* NSObject+JsonString.m in Sources */,
 				18578ECD1F4439A8004F7FB7 /* ViewController.m in Sources */,
 				181A12701FE66C9F009BE426 /* UIColor+Addons.m in Sources */,
 				18578ECA1F4439A8004F7FB7 /* AppDelegate.m in Sources */,
 				181A126D1FE66C9F009BE426 /* NSJSONSerialization+Addons.m in Sources */,
 				181A12751FE66C9F009BE426 /* UIImage+Extension.m in Sources */,
-				181A12721FE66C9F009BE426 /* UILabel+Addons.m in Sources */,
 				18578F081F443D4E004F7FB7 /* ZJUtils.m in Sources */,
 				181A12691FE66C9F009BE426 /* UITableViewCell+Addons.m in Sources */,
 				181A12711FE66C9F009BE426 /* NSString+Extend.m in Sources */,

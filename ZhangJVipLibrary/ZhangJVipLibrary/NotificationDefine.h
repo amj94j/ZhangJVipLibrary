@@ -1,6 +1,5 @@
 //
 //  NotificationDefine.h
-//  XHDoctor
 //
 //  Created by apple on 16/8/15.
 //  Copyright © 2016年 XH. All rights reserved.

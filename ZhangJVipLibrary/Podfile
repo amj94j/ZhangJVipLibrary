@@ -1,8 +1,19 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 target 'ZhangJVipLibrary' do
-    pod 'Masonry', '~> 1.1.0’
-    pod 'AFNetworking', '~> 3.1.0’
-    pod 'SDWebImage', '~> 4.2.2'
-    pod 'JSONModel', '~> 1.7.0'
+    pod 'Masonry', '~> 1.1.0' #约束
+    pod 'AFNetworking', '~> 3.1.0' #网络请求
+    pod 'SDWebImage', '~> 4.2.2' #图片加载
+    
+    #pod 'EaseMobSDK', :git => 'https://github.com/easemob/sdk-ios-cocoapods.git'
+    pod 'JSONModel', '~> 1.7.0' #
+    
+    pod 'IQKeyboardManager' # 键盘管理
+    pod 'MJRefresh', '~> 3.1.15.3' # 下拉加载 上拉刷新
+    pod 'RKNotificationHub' # 角标
+    pod 'DZNEmptyDataSet', '~> 1.8.1' # 空白tableView管理
+    pod 'UITableView+FDTemplateLayoutCell' # cell高度计算
+    pod 'SDCycleScrollView', '~> 1.75' # 轮播图
+    pod 'TZImagePickerController' # 图片选择
+    pod 'FSCalendar', '~> 2.7.9' # 日历
     
 end

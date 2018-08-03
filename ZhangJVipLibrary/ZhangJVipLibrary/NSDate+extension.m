@@ -122,6 +122,48 @@
     return [fmt dateFromString:selfStr];
 }
 
+// 时间戳转换为时间
++ (NSString *)timeWithTimeIntervalString:(NSString *)timeString
+{
+    // 格式化时间
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.timeZone = [NSTimeZone timeZoneWithName:@"Asia/Beijing"];
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    [formatter setTimeStyle:NSDateFormatterShortStyle];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    
+    // 毫秒值转化为秒
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:[timeString doubleValue]/1000.0];
+    NSString *dateString = [formatter stringFromDate:date];
+    return dateString;
+}
+
+// 计算时间差
++ (NSString *)getCountDownStringWithBeginTime:(NSString *)beginTime EndTime:(NSString *)endTime {
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    
+    NSDate *now = [dateFormatter dateFromString:beginTime];
+    NSTimeZone *zone = [NSTimeZone systemTimeZone]; // 设置时区
+    NSInteger interval = [zone secondsFromGMTForDate: now];
+    NSDate *localDate = [now  dateByAddingTimeInterval: interval];
+    NSDate *endDate = [dateFormatter dateFromString:endTime];
+    NSInteger endInterval = [zone secondsFromGMTForDate: endDate];
+    NSDate *end = [endDate dateByAddingTimeInterval: endInterval];
+    NSTimeInterval voteCountTime = [end timeIntervalSinceDate:localDate];
+    NSUInteger hTime = (int)voteCountTime/3600;
+    NSUInteger mTime = ((int)voteCountTime%3600)/60;
+    NSString *timeStr = @"";
+    if (mTime>0) {
+        timeStr = [NSString stringWithFormat:@"%luh%lum", (unsigned long)hTime,(unsigned long)mTime];
+    } else {
+        timeStr = [NSString stringWithFormat:@"%luh", (unsigned long)hTime];
+    }
+    return timeStr;
+}
+
+
 
 
 @end

@@ -17,8 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
+- (IBAction)nidianyixiaa:(id)sender {
+    NSLog(@"你点一下啊!!!");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

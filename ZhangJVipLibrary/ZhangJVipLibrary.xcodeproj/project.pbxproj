@@ -34,6 +34,7 @@
 		18578F021F443ACB004F7FB7 /* NSDictionary+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 18578F011F443ACB004F7FB7 /* NSDictionary+Addons.m */; };
 		18578F081F443D4E004F7FB7 /* ZJUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18578F071F443D4E004F7FB7 /* ZJUtils.m */; };
 		185EB2821F4584C4003A2D57 /* UILabel+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 185EB2811F4584C4003A2D57 /* UILabel+Addons.m */; };
+		1866322620BCECC500816D91 /* PersonModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1866322420BCECC500816D91 /* PersonModel.xcdatamodeld */; };
 		189900D620B5158A00A45A26 /* NSDictionary+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 189900D420B5158900A45A26 /* NSDictionary+Addons.m */; };
 		189900D920B53F8D00A45A26 /* UILabel+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 189900D820B53F8C00A45A26 /* UILabel+Addons.m */; };
 		D9673023F4415A51A07775B9 /* libPods-ZhangJVipLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4079D994570E5EE7A3B510 /* libPods-ZhangJVipLibrary.a */; };
@@ -125,6 +126,7 @@
 		18578F071F443D4E004F7FB7 /* ZJUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJUtils.m; sourceTree = "<group>"; };
 		185EB2801F4584C4003A2D57 /* UILabel+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addons.h"; sourceTree = "<group>"; };
 		185EB2811F4584C4003A2D57 /* UILabel+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addons.m"; sourceTree = "<group>"; };
+		1866322520BCECC500816D91 /* PersonModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonModel.xcdatamodel; sourceTree = "<group>"; };
 		189900D420B5158900A45A26 /* NSDictionary+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addons.m"; sourceTree = "<group>"; };
 		189900D520B5158900A45A26 /* NSDictionary+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addons.h"; sourceTree = "<group>"; };
 		189900D720B53F8C00A45A26 /* UILabel+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addons.h"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		18578EC41F4439A8004F7FB7 /* ZhangJVipLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				189900DB20B56CC700A45A26 /* 滑尺 */,
 				18578EFE1F443A8A004F7FB7 /* Extention */,
 				18578EFC1F443A26004F7FB7 /* Utilities */,
 				18578EC81F4439A8004F7FB7 /* AppDelegate.h */,
@@ -215,6 +218,7 @@
 				181E197420046B07000D1D05 /* ZhangJVipLibrary-PrefixHeader.pch */,
 				18578ECB1F4439A8004F7FB7 /* ViewController.h */,
 				18578ECC1F4439A8004F7FB7 /* ViewController.m */,
+				1866322420BCECC500816D91 /* PersonModel.xcdatamodeld */,
 				18578ECE1F4439A8004F7FB7 /* Main.storyboard */,
 				18578ED41F4439A8004F7FB7 /* Assets.xcassets */,
 				18578ED61F4439A8004F7FB7 /* LaunchScreen.storyboard */,
@@ -342,6 +346,37 @@
 				181A12441FE60A0A009BE426 /* ZJDateTool.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		189900DB20B56CC700A45A26 /* 滑尺 */ = {
+			isa = PBXGroup;
+			children = (
+				189900DD20B56D0800A45A26 /* Model */,
+				189900DC20B56D0800A45A26 /* View */,
+				189900DE20B56D0800A45A26 /* ViewController */,
+			);
+			path = "滑尺";
+			sourceTree = "<group>";
+		};
+		189900DC20B56D0800A45A26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		189900DD20B56D0800A45A26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		189900DE20B56D0800A45A26 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		2D9914F053E1E937C853D85B /* Frameworks */ = {
@@ -561,6 +596,7 @@
 				18578ECA1F4439A8004F7FB7 /* AppDelegate.m in Sources */,
 				181A126D1FE66C9F009BE426 /* NSJSONSerialization+Addons.m in Sources */,
 				181A12751FE66C9F009BE426 /* UIImage+Extension.m in Sources */,
+				1866322620BCECC500816D91 /* PersonModel.xcdatamodeld in Sources */,
 				18578F081F443D4E004F7FB7 /* ZJUtils.m in Sources */,
 				181A12691FE66C9F009BE426 /* UITableViewCell+Addons.m in Sources */,
 				181A12711FE66C9F009BE426 /* NSString+Extend.m in Sources */,
@@ -846,6 +882,16 @@
 			);
 			currentVersion = 18578ED21F4439A8004F7FB7 /* ZhangJVipLibrary.xcdatamodel */;
 			path = ZhangJVipLibrary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1866322420BCECC500816D91 /* PersonModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1866322520BCECC500816D91 /* PersonModel.xcdatamodel */,
+			);
+			currentVersion = 1866322520BCECC500816D91 /* PersonModel.xcdatamodel */;
+			path = PersonModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
